@@ -39,7 +39,7 @@ if [[ -z "${HOMEBREW_ON_LINUX-}" ]]; then
     if [[ "$UNAME_MACHINE" == "arm64" ]]; then
     #M1
     HOMEBREW_PREFIX="/usr/local"
-    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}"
+    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
     else
     #Inter
     HOMEBREW_PREFIX="/usr/local"
